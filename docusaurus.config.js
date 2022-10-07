@@ -3,15 +3,15 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: "priambudi.fyi",
+  title: "portfolio-images-docusaurus-blog",
   tagline: "Dinosaurs are cool. But I'm even cooler 😎.",
-  url: "https://priambudi.fyi",
+  url: "https://portfolio-images-docusaurus-blog.pages.dev",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
-  organizationName: "priambudiLB", // Usually your GitHub org/user name.
-  projectName: "fyi", // Usually your repo name.
+  organizationName: "coding-to-music", // Usually your GitHub org/user name.
+  projectName: "portfolio-images-docusaurus-blog", // Usually your repo name.
   i18n: {
     defaultLocale: "en",
     locales: ["en", "id"],
@@ -51,7 +51,7 @@ module.exports = {
           position: "left",
         },
         {
-          href: "https://github.com/priambudiLB/fyi",
+          href: "https://github.com/coding-to-music/portfolio-images-docusaurus-blog",
           position: "right",
           className: "header-github-link",
           "aria-label": "GitHub repository",
@@ -92,12 +92,12 @@ module.exports = {
             },
             {
               label: "GitHub",
-              href: "https://github.com/priambudiLB",
+              href: "https://github.com/coding-to-music",
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Priambudi Lintang Bagaskara. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Your-Name-Here. Built with Docusaurus.`,
     },
     prism: {
       theme: lightCodeTheme,
@@ -115,22 +115,23 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
-          editUrl: "https://github.com/priambudiLB/fyi/tree/main",
+          editUrl:
+            "https://github.com/coding-to-music/portfolio-images-docusaurus-blog/tree/main",
           editLocalizedFiles: true,
         },
         blog: {
           showReadingTime: true,
-          blogTitle: "Read | priambudi.fyi",
+          blogTitle: "Read | portfolio-images-docusaurus-blog",
           blogDescription: "Blog Bagas",
           editUrl: ({ locale, blogDirPath, blogPath, permalink }) => {
-            return `https://github.com/priambudiLB/fyi/tree/main/${blogDirPath}/${blogPath}`;
+            return `https://github.com/coding-to-music/portfolio-images-docusaurus-blog/tree/main/${blogDirPath}/${blogPath}`;
           },
           routeBasePath: "read",
           feedOptions: {
             type: "all", // required. 'rss' | 'feed' | 'all'
             title: "", // default to siteConfig.title
             description: "", // default to  `${siteConfig.title} Blog`
-            copyright: `Copyright © ${new Date().getFullYear()} Priambudi Lintang Bagaskara.`,
+            copyright: `Copyright © ${new Date().getFullYear()} Your-Name-Here`,
             language: "en", // possible values: http://www.w3.org/TR/REC-html40/struct/dirlang.html#langcodes
           },
           editLocalizedFiles: true,
