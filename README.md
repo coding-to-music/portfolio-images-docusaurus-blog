@@ -23,7 +23,7 @@ From / By https://github.com/priambudiLB/priambudiLB
 ## Environment variables:
 
 ```java
-
+Cloudflare wants NODE_VERSION = 16.14.2
 ```
 
 ## GitHub
